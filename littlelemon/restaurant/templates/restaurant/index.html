@@ -1,10 +1,15 @@
 <html>
-   <head>
-      <title>Capstone Project</title>
-   </head>
-   <body>
-      <h1 style="text-align:center;">Welcome ToLittleLemon Restaurant</h1>
-      {% load static %}
-<img src="{% static 'img/logo.png' %}">
-   </body>
+<head>
+   <title>Capstone Project</title>
+</head>
+<body>
+   <h1 style="text-align:center;">Welcome ToLittleLemon Restaurant</h1>
+   {% load static %}
+   <img src="{% static 'img/logo.png' %}">
+   {% if is.authenticated %}
+   <h4>Welcome</h4>
+   {% else %}
+   <h5>Kindly log in</h5>
+   {%endif%}
+</body>
 </html>
