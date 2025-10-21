@@ -20,4 +20,4 @@
 ## 🚀 Getting Started  
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/yourusername/food-reservation-react.git
+   git clone https://github.com/Keematics/LittleLemon.git
